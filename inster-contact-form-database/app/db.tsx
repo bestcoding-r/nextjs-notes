@@ -5,7 +5,7 @@ export const db = mysql.createPool({
     port: 25143, // Port lazmi add karein
     user: "avnadmin",
     password: "AVNS_UOL04zjY5jwbeWTiLbJ", // 'ali@' prefix hata dein agar ye password ka hissa nahi hai
-    database: "defaultdb",
+    database: "contactdata",
     ssl: {
         rejectUnauthorized: false // Ye cloud connection ke liye zaroori hai
     },
